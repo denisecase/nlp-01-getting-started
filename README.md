@@ -90,18 +90,22 @@ code .
 ### In a VS Code terminal
 
 ```shell
+# reset uv cache only after suspected cache corruption or strange dependency errors
+# uv cache clean
+
 uv self update
 uv python pin 3.14
-uv sync --extra dev --extra docs --upgrade
+uv sync --upgrade
 
 uvx pre-commit install
+
 git add -A
 uvx pre-commit run --all-files
 
 # Later, we install spacy data model and
 # en_core_web_sm = english, core, web, small
 # It's big: spacy+data ~200+ MB w/ model installed
-#           ~350–450 MB for .venv is normal for NLP
+#           ~350â€“450 MB for .venv is normal for NLP
 # uv run python -m spacy download en_core_web_sm
 
 # First, run the module

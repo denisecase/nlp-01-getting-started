@@ -1,5 +1,4 @@
-"""
-web_words_case.py - Project script (example).
+"""web_words_case.py - Project script (example).
 
 Purpose
 
@@ -13,8 +12,7 @@ Analytical Questions
 - What noise appears from navigation or markup?
 - What preprocessing steps might improve results?
 
-Notes
-
+Notes:
 - This example performs simple frequency analysis.
 - More advanced text processing techniques will be introduced later.
 
