@@ -1,4 +1,4 @@
-"""web_words_case.py - Project script (example).
+"""web_words.py - Project script (example).
 
 Purpose
 
@@ -18,7 +18,7 @@ Notes:
 
 Run from root project folder with:
 
-  uv run python -m nlp.web_words_case
+  uv run python -m nlp.web_words
 """
 
 # ============================================================

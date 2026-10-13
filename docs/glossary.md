@@ -1,54 +1,90 @@
 # Glossary
 
+This module introduces foundational concepts
+for professional Python projects and web mining.
+
 ## Applied Natural Language Processing (NLP)
 
-Applied Natural Language Processing (NLP) uses **computational techniques** to **analyze and work with human language**.
-Common tasks include:
+**Applied Natural Language Processing (NLP)** uses computational
+methods to analyze, interpret, transform, and generate human language.
 
-- extracting information from text
-- classifying documents
-- identifying topics or sentiment
-- summarizing or transforming text
+Applications include information extraction,
+document classification, text analysis,
+question answering, and text generation.
 
 ## Web Mining
 
-Web mining is the practice of collecting and analyzing data from the web.
+**Web mining** is the process of collecting,
+extracting, and analyzing information from web resources.
 
-Typical activities include:
+Web mining may involve:
 
-- retrieving web pages or APIs
-- extracting structured information from HTML
-- analyzing links, text, or metadata
-- building datasets for further analysis
+- Retrieving web pages and documents.
+- Accessing data through web APIs.
+- Extracting text, links, and metadata.
+- Analyzing patterns in collected information.
+
+## Web Document
+
+A **web document** is a resource accessible through the web
+that contains text, structured data, or other content.
+
+Web documents may be represented in formats
+such as HTML, JSON, XML, or plain text.
+
+## Data Source
+
+A **data source** is the origin of information
+used by an application or analytical process.
+
+Sources may include local files, databases,
+web pages, APIs, or other systems.
 
 ## Project
 
-A structured set of files and folders that work together to run code, store data, and produce outputs.
+A structured collection of files and folders
+that work together to implement an application,
+perform an analysis, or produce results.
 
 ## Repository (repo)
 
-A version-controlled project folder (often hosted on GitHub) that tracks changes over time.
+A **repository** is a version-controlled collection
+of project files and their recorded changes.
+
+Repositories support collaboration,
+revision history, and reproducible development.
 
 ## Working Directory
 
-The folder your terminal is currently operating in.
+The **working directory** is the folder
+from which a program or terminal command operates.
+
+Relative file paths are typically interpreted
+in relation to the working directory.
 
 ## Path
 
-An address to a file or folder (example: `data/input.csv`).
+A **path** identifies the location
+of a file or directory.
 
-## Dataset
-
-A collection of data records used by a program.
-
-## Artifact
-
-A file produced by the program (for example results or reports).
+Paths may be absolute or relative.
 
 ## Logging
 
-Messages written by the program that record what it is doing.
+**Logging** is the practice of recording
+events and information during program execution.
 
-## README.md
+Logs help developers understand program behavior,
+investigate failures, and verify execution.
 
-The front-page document that explains what a project is and how to run it.
+## Artifact
+
+An **artifact** is an output produced
+by a program or analytical process.
+
+Artifacts may include datasets, reports,
+visualizations, logs, or other generated files.
+
+---
+
+[◄ Back to 🏠 Home](index.md)

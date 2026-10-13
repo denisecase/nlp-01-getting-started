@@ -1,17 +1,87 @@
 # Project Instructions
 
-## WEDNESDAY: Complete Workflow Phase 1
+## Goal
 
-Follow the instructions in
-[⭐ **Workflow: Apply Example**](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
-to complete:
+Get familiar with Web Mining and Applied NLP Python projects and
+the key areas where we implement and present our work.
 
-1. Phase 1. **Start & Run** – copy the project and confirm it runs
+The goal is to get a professional Python project running successfully.
 
-## FRIDAY/SUNDAY: Complete Workflow Phases 2-4
+## Common Workflows
 
-Again, follow the instructions above to complete:
+We hope things go well, but sometimes they don't.
+To avoid repeating common workflows and troubleshooting help
+in every example project, we've consolidated
+common steps into one central guide.
 
-1. Phase 2. **Change Authorship** – update the project to your name and GitHub account
-2. Phase 3. **Read & Understand** – review the project structure and code
-3. Phase 4. **Make a Technical Modification** - make a change and verify it still runs.
+The guide provides the detailed instructions needed
+to complete these professional workflows.
+
+## A. Set Up Machine
+
+Complete [Workflow A: Set Up Machine](https://denisecase.github.io/pro-analytics-02/workflow-a-set-up-machine/)
+if your machine is not ready.
+
+## B. Explore Example Project
+
+Follow [Workflow B: Explore Example Project](https://denisecase.github.io/pro-analytics-02/workflow-b-explore-example-project/).
+
+Explore how the example:
+
+- Retrieves text from a web page.
+- Extracts text using BeautifulSoup.
+- Calculates word frequencies using Polars.
+- Creates a frequency chart and word cloud.
+- Records execution details in a project log.
+
+Review the example code and results.
+
+## C. Start New Project
+
+Follow [Workflow C: Start New Project](https://denisecase.github.io/pro-analytics-02/workflow-c-start-new-project/).
+
+IMPORTANT: New repository name:
+**nlp-01-getting-started-custom**.
+
+VERIFY: You have completed git add-commit-push to GitHub at least twice.
+
+## D. Apply Skills
+
+Follow [Workflow D: Apply Skills](https://denisecase.github.io/pro-analytics-02/workflow-d-apply-skills/).
+
+### Progression 1. Your Project Works Like the Example
+
+Ensure your new custom project runs like the example.
+
+Verify that key files have been updated to use **your GitHub account** and
+the **new custom repository name**.
+
+No new analysis or technical modification is required.
+
+## E. Finalize Project
+
+Follow [Workflow E: Finalize Project](https://denisecase.github.io/pro-analytics-02/workflow-e-finalize/).
+
+Since no analytical changes are required,
+`docs/index.md` needs only minor updates.
+
+Update project-specific links to ensure they point to
+**your GitHub account** and the
+**new custom repository name**.
+
+## Success
+
+- [ ] README.md project-specific links use **your GitHub account**.
+- [ ] README.md project-specific links use **your custom repository name**.
+- [ ] docs/index.md project-specific links use **your GitHub account**.
+- [ ] docs/index.md project-specific links use **your custom repository name**.
+- [ ] pyproject.toml `name` has been changed to use **your custom repository name**.
+- [ ] The `src/nlp` package path is unchanged.
+- [ ] The example script runs successfully and produces its results.
+- [ ] All necessary commands are provided and work successfully.
+- [ ] Links to the Professional Python Guide (pro-analytics-02) remain unchanged.
+- [ ] Commit history shows **at least** the git add-commit-push history required in the instructions.
+
+---
+
+[◄ Back to Home](index.md)
