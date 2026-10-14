@@ -56,7 +56,14 @@ Ensure your new custom project runs like the example.
 Verify that key files have been updated to use **your GitHub account** and
 the **new custom repository name**.
 
-No new analysis or technical modification is required.
+No new analysis or technical modification is required,
+the project should run the same as the example.
+Only references to the
+**GitHub account** and **repository name** should be updated.
+
+This project illustrates **where** (in what folders and files)
+those common required updates occur (and how to find them).
+We'll make similar changes in every custom project.
 
 ## E. Finalize Project
 
