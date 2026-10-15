@@ -26,14 +26,14 @@ version = "0.1.0"
 dependencies = [
     # REQ.DEPS: External packages used by the project code.
     "datafun-toolkit",
-    "ipykernel",       # WHY: Provides the Python kernel used by Jupyter notebooks.
-    "ipython",         # WHY: Enhanced interactive Python shell used by notebook kernels.
-    "requests",        # WHY: Simple HTTP client for retrieving web pages and APIs.
-    "beautifulsoup4",  # WHY: Parse HTML and extract structured data from web pages.
-    "lxml",            # WHY: Fast XML/HTML parser used by BeautifulSoup.
-    "polars[rtcompat]",# WHY: Fast Rust-based dataframe library for text statistics and tabular analysis.
-    "matplotlib",      # WHY: Core visualization library for plots used in exploratory analysis.
-    "wordcloud",       # WHY: Quick visual exploration of word frequencies in text corpora.
+    "ipykernel",        # WHY: Provides the Python kernel used by Jupyter notebooks.
+    "ipython",          # WHY: Enhanced interactive Python shell used by notebook kernels.
+    "requests",         # WHY: Simple HTTP client for retrieving web pages and APIs.
+    "beautifulsoup4",   # WHY: Parse HTML and extract structured data from web pages.
+    "lxml",             # WHY: Fast XML/HTML parser used by BeautifulSoup.
+    "polars[rtcompat]", # WHY: Fast Rust-based dataframe library for text statistics and tabular analysis.
+    "matplotlib",       # WHY: Core visualization library for plots used in exploratory analysis.
+    "wordcloud",        # WHY: Quick visual exploration of word frequencies in text corpora.
     #"spacy", # WHY: Industrial-strength NLP library for tokenization and linguistic analysis.
 ]
 
@@ -90,12 +90,8 @@ exclude-newer-package = { datafun-toolkit = false, nlp = false }
 
 [build-system]
 build-backend = "hatchling.build"
-requires = ["hatchling", "hatch-vcs"]
+requires = ["hatchling"]
 
 [tool.hatch.build.targets.wheel]
-# CUSTOM: Must match src/ folders.
-packages = ["src/nlp"] # CUSTOM: Adjust as needed to match the actual package directory under src/.
-
-[tool.setuptools.packages.find]
-# WHY: Explicitly define package discovery location.
-where = ["src"]
+# CUSTOM: Adjust as needed to match the actual package directory under src/.
+packages = ["src/nlp"]

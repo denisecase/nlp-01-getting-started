@@ -117,7 +117,7 @@ and the logging system works.
 Run the automated tests:
 
 ```shell
-uv run pytest
+uv run python -m pytest
 ```
 
 ## Project Documentation

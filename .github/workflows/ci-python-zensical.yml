@@ -1,7 +1,7 @@
 # ============================================================
 # .github/workflows/ci-python-zensical.yml (ALL-PY-SRC-REPOS)
 # ============================================================
-# Updated: 2026-10-11
+# Updated: 2026-10-14
 #
 # WHAT: A GitHub Actions workflow that automatically checks project quality.
 #       GitHub Actions is GitHub's built-in project automation service.
@@ -132,7 +132,7 @@ jobs:
       - name: C1) Run pytest
         run: uv run python -m pytest
         # WHY: Confirm all Python tests pass in a clean CI environment.
-        # OBS: pytest config lives in pyproject.toml [tool.pytest.ini_options].
+        # OBS: pytest config lives in .pytest.toml (or pyproject.toml)
         # OBS: Not included in hooks because tests can be slow.
 
       # ============================================================
